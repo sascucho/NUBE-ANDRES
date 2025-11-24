@@ -38,6 +38,14 @@ El script está configurado para procesar la siguiente estructura de columnas...
 
 Para ejecutar el script **formulario.py**, es necesario tener instalado [Python 3.x](https://www.python.org/downloads/) y las siguientes librerías, las cuales se pueden instalar mediante pip:
 
+---
+
+| Librería | Propósito en el Script |
+| :--- | :--- |
+| *pandas* | Manipulación y lectura de DataFrames (Excel). |
+| *openpyxl* | Motor para escribir archivos Excel con múltiples hojas. |
+| *matplotlib* | Generación de gráficos de barras para visualización. |
+
 ```bash
 pip install pandas openpyxl matplotlib
 
