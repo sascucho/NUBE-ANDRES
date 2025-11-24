@@ -17,6 +17,21 @@ El objetivo principal es transformar un archivo de registro plano (Excel) en dos
 
 El proyecto sigue una estructura modular para separar claramente las entradas, el código y las salidas.
 
+
+---
+
+## 📊 Metadatos del Archivo de Entrada
+
+El script está configurado para procesar la siguiente estructura de columnas...
+
+---
+
+| Columna Clave | Propósito en el Script |
+| :--- | :--- |
+| Semestre del Proyecto | *Columna de Clasificación:* Usada para agrupar y nombrar las hojas de Excel. |
+| Nombre del Proyecto | *Columna de Conteo:* Usada para cuantificar el número de registros por semestre. |
+| Otras columnas... | Incluidas en el reporte, pero no usadas para la lógica de clasificación. |
+
 ---
 
 ## ⚙ Requisitos y Dependencias
@@ -26,9 +41,4 @@ Para ejecutar el script **formulario.py**, es necesario tener instalado [Python 
 ```bash
 pip install pandas openpyxl matplotlib
 
-| Columna Clave | Propósito en el Script |
-| :--- | :--- |
-| Semestre del Proyecto | *Columna de Clasificación:* Usada para agrupar y nombrar las hojas de Excel. |
-| Nombre del Proyecto | *Columna de Conteo:* Usada para cuantificar el número de registros por semestre. |
-| Otras columnas... | Incluidas en el reporte, pero no usadas para la lógica de clasificación. |
 
