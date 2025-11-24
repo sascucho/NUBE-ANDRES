@@ -17,6 +17,15 @@ El objetivo principal es transformar un archivo de registro plano (Excel) en dos
 
 El proyecto sigue una estructura modular para separar claramente las entradas, el código y las salidas.
 
+---
+
+## ⚙ Requisitos y Dependencias
+
+Para ejecutar el script **formulario.py**, es necesario tener instalado [Python 3.x](https://www.python.org/downloads/) y las siguientes librerías, las cuales se pueden instalar mediante pip:
+
+```bash
+pip install pandas openpyxl matplotlib
+
 | Columna Clave | Propósito en el Script |
 | :--- | :--- |
 | Semestre del Proyecto | *Columna de Clasificación:* Usada para agrupar y nombrar las hojas de Excel. |
