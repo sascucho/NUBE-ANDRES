@@ -48,5 +48,6 @@ Para ejecutar el script **formulario.py**, es necesario tener instalado [Python 
 
 ```bash
 pip install pandas openpyxl matplotlib
+```
 
-
+[formulario.py](formulario.py)
